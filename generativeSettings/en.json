@@ -6,6 +6,9 @@
   
   },
   "languageCode": "en",
+  "knowledgeConnectorSettings": {
+    "business": "GDG Fresno"
+  },
   "llmModelSettings": {
     "model": "gemini-pro"
   }

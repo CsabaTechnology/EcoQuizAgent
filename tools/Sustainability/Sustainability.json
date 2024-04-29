@@ -1,19 +1,25 @@
 {
-  "name": "3e9a4d2a-45b4-4ffb-8c61-703b83186714",
+  "name": "65e8a4a0-f4ac-423c-b924-b0b184b6c8ba",
   "displayName": "Sustainability",
-  "description": "Documents about Sustainability and Sustainable Development Goals",
+  "description": "Documents about sustainability and sustainable development goals",
   "actions": [ "Sustainability" ],
   "dataStoreSpec": {
+    "dataStoreConnections": [ {
+      "dataStoreType": "UNSTRUCTURED",
+      "dataStore": "projects/172711540191/locations/us/collections/default_collection/dataStores/sustainability_1713822112745",
+      "documentProcessingMode": "CHUNKS"
+    } ],
     "models": {
       "summarizationModel": {
-      
+        "model": "gemini_pro"
       }
     },
     "fallbackPrompt": {
     
     },
     "groundingSettings": {
-    
+      "groundingConfidence": "VERY_LOW",
+      "disabled": true
     }
   },
   "actionSchemas": [ {

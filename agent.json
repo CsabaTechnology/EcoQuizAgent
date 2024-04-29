@@ -10,8 +10,9 @@
       "enableInteractionLogging": true
     }
   },
+  "dataResidencyOption": "DATA_RESIDENCY_IN_USE_COMPLIANT",
   "genAppBuilderSettings": {
-    "engine": "projects/172711540191/locations/us/collections/default_collection/engines/6e415da5-2e48-462b-80de-78b0983a1ef0"
+    "engine": "projects/172711540191/locations/us/collections/default_collection/engines/459e86ae-ffca-4e6d-944e-cbdef069b02c"
   },
-  "startPlaybook": "Eco-Quiz"
+  "startPlaybook": "EcoQuiz"
 }
